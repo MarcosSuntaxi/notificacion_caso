@@ -76,7 +76,7 @@ A continuación se describe el endpoint principal del sistema de notificación d
   ```
 - **Ejemplo de uso con `curl`:**
   ```bash
-  curl -X POST http://localhost:3000/api/notificar-caso \
+  curl -X POST http://127.0.0.1:8000/notificacioncaso \
     -H "Content-Type: application/json" \
     -d '{
       "titulo": "Error de servidor",
