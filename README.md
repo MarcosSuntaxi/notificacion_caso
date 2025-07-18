@@ -47,11 +47,7 @@ Este repositorio contiene el código fuente para la administración y notificaci
 1. Configura las variables de entorno si es necesario.
 2. Ejecuta la aplicación:
    ```bash
-   # Ejemplo para Node.js
-   npm start
-
-   # Ejemplo para Python
-   python main.py
+   uvicorn app.main:app --reload
    ```
 3. Accede a la aplicación desde tu navegador o cliente según corresponda.
 
